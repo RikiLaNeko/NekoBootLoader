@@ -1,5 +1,5 @@
 <div align="center">
-  <h1 style="font-size: 4em; font-weight: bold; text-shadow: 2px 2px 4px #000000;">tinyx86Bootloader</h1>
+  <h1 style="font-size: 4em; font-weight: bold; text-shadow: 2px 2px 4px #000000;">NekoBootLoader</h1>
   <p>
     <i>An exploration into the depths of x86 Assembly bootloaders.</i>
   </p>
