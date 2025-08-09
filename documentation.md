@@ -1,6 +1,6 @@
 # Technical Documentation
 
-This document provides a technical overview of the files in the `tinyx86Bootloader` project.
+This document provides a technical overview of the files in the `NekoBootLoader` project.
 
 ## Bootloaders
 
