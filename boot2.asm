@@ -169,10 +169,6 @@ check_64bit_support:
 
 bits 64
 long_mode_64:
-    ; Debug: mettre '6' pour indiquer qu'on est en 64-bit
-    mov byte [0xb800c], '6'
-    mov byte [0xb800d], 0x0F
-    
     ; Setup 64-bit segments
     mov ax, 0x20
     mov ds, ax
@@ -180,6 +176,12 @@ long_mode_64:
     mov fs, ax
     mov gs, ax
     mov ss, ax
+
+    ; Clear screen
+    mov rdi, 0xb8000
+    mov rcx, 80 * 25
+    mov ax, 0x0F20      ; White on Black, space
+    rep stosw
     
     ; Print message
     mov rsi, msg

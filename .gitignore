@@ -1,0 +1,4 @@
+os.img
+qemu.log
+*.bin
+*.com
